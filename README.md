@@ -6,13 +6,7 @@ This project uses a YOLOv11 model to detect cars, classify their colors (highlig
 - Red rectangle for blue cars, blue for others
 - Counts number of people at traffic signal
 - GUI for easy image upload and preview
-# Requirements
-- Python 3.8+
-- OpenCV
-- Tkinter
-- Pillow
-- ultralytics
-- numpy
+  
 # Dataset
 - Dataset contains images labeled for 3 classes: car, person, and traffic_light in YOLO format.
 # How to Run

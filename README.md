@@ -6,7 +6,11 @@ This project uses a YOLOv11 model to detect cars, classify their colors (highlig
 - Red rectangle for blue cars, blue for others
 - Counts number of people at traffic signal
 - GUI for easy image upload and preview
-  
+# Manual Setup
+- Create virtual environment:
+- bashpython -m venv car_detection_env
+- car_detection_env\Scripts\activate  # Windows
+- source car_detection_env/bin/activate 
 # Dataset
 - Dataset contains images labeled for 3 classes: car, person, and traffic_light in YOLO format.
 # How to Run
